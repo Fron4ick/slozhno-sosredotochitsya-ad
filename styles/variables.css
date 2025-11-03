@@ -1,80 +1,69 @@
 :root {
-  /* Цветовая схема по умолчанию (тёмная) */
-  --accent-color: #FF0070;
-  --bg-color: #000028;
-  --text-color: #F1B2CE;
-  --title-color: #DB00FF;
-  --decor-color: #FF0070;
-  --title-decor-bg: #FF0070;
-  --title-decor-text: #000028;
-  --button-hover-border: rgba(255, 0, 112, 0.4);
-  --button-focus-border: #FF0070;
-  --link-shadow: #FF0070;
-  --bg-image: url("../images/cover-image-dark.png");
-  
-  /* Шрифты */
-  --font-family: 'IBM Plex Mono', monospace;
-  --font-size: 18px;
-  --line-height: 23.4px;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  
-  /* Отступы */
-  --padding-mobile: 10px;
-  --padding-tablet: 20px;
-  --padding-desktop: 20px;
-  
-  /* Размеры секций */
-  --section-gap-mobile: 50px;
-  --section-gap-tablet: 80px;
-  --section-gap-desktop: 80px;
-  --content-gap-mobile: 20px;
-  --content-gap-tablet: 20px;
-  --content-gap-desktop: 20px;
-  
-  /* Размеры декоративных элементов */
-  --decor-size: 25px;
-  --rec-dot-size: 9px;
-  --rec-gap: 10px;
-  
-  /* Тени */
-  --title-shadow: 4px 4px 0 var(--accent-color);
-  --link-text-shadow: 2px 2px 0 var(--link-shadow);
-  
-  /* Размеры заголовков */
-  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-title-size-tablet: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --header-title-line-height: 82.5%;
-  
-  /* Границы кнопок */
-  --button-border: 1px solid var(--decor-color);
-  --button-border-transparent: 1px solid transparent;
-  
-  /* Ширина контента */
-  --content-max-width: 1440px;
-  --content-min-width: 375px;
-  
-  /* Отступы header */
-  --header-text-max-width-mobile: 355px;
-  --header-text-max-width-tablet: 364px;
-  --header-text-max-width-desktop: 491px;
-  
-  /* Gaps для различных элементов */
-  --button-gap: 10px;
-  --advice-gap: 10px;
-  --gallery-gap-mobile: 10px;
-  --gallery-gap-tablet: 20px;
+    /* Цветовая схема по умолчанию (тёмная) */
+    --accent-color: #FF0070;
+    --bg-color: #000028;
+    --text-color: #F1B2CE;
+    --title-color: #DB00FF;
+    --decor-color: #FF0070;
+    --title-decor-bg: #FF0070;
+    --title-decor-text: #000028;
+    --button-hover-border: rgba(255, 0, 112, 0.4);
+    --button-focus-border: #FF0070;
+    --link-shadow: #FF0070;
+    --bg-image: url("../images/cover-image-dark.png");
+
+    /* Шрифты */
+    --font-family: 'IBM Plex Mono', monospace;
+    --font-size: 17.9px;
+    --line-height: 23.4px;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* Отступы */
+    --padding-mobile: 10px;
+    --padding-tablet: 20px;
+    --padding-desktop: 20px;
+
+    /* Размеры секций */
+    --section-gap-mobile: 50px;
+    --section-gap-tablet: 80px;
+    --section-gap-desktop: 80px;
+    --content-gap-mobile: 20px;
+    --content-gap-tablet: 20px;
+    --content-gap-desktop: 20px;
+
+    /* Размеры декоративных элементов */
+    --decor-size: 25px;
+    --rec-dot-size: 9px;
+    --rec-gap: 10px;
+
+    /* Тени */
+    --title-shadow: 4px 4px 0 var(--accent-color);
+    --link-text-shadow: 2px 2px 0 var(--link-shadow);
+
+    /* Размеры заголовков */
+    --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header-title-size-tablet: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --header-title-line-height: 82.5%;
+
+    /* Границы кнопок */
+    --button-border: 1px solid var(--decor-color);
+    --button-border-transparent: 1px solid transparent;
+
+    /* Ширина контента header */
+    --header-text-max-width-mobile: 355px;
+    --header-text-max-width-tablet: 364px;
+    --header-text-max-width-desktop: 491px;
+
+    /* Gaps для различных элементов */
+    --button-gap: 10px;
+    --advice-gap: 10px;
+    --gallery-gap-mobile: 10px;
+    --gallery-gap-tablet: 20px;
 }
 
-@media (width >= 768px) {
-  :root {
-    --padding-mobile: var(--padding-tablet);
-    --header-title-size: var(--header-title-size-tablet);
-  }
-}
-
-@media (width >= 1024px) {
-  :root {
-    --section-gap-mobile: var(--section-gap-desktop);
-  }
+@media (width >=768px) {
+    :root {
+        --header-title-size: var(--header-title-size-tablet);
+    }
 }
