@@ -59,7 +59,7 @@
     --button-gap: 10px;
     --advice-gap: 10px;
     --gallery-gap-mobile: 10px;
-    --gallery-gap-tablet: 20px;
+    --gallery-gap-tablet: 18px;
 }
 
 @media (width >=768px) {
