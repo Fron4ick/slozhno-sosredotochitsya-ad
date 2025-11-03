@@ -166,7 +166,7 @@
     gap: var(--content-gap-mobile);
 }
 
-/* Статьи с советами */
+/* Статьи */
 .advice {
     display: flex;
     flex-direction: column;
