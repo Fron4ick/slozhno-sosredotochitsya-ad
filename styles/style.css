@@ -158,6 +158,7 @@
     font-size: var(--font-size);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height);
+    letter-spacing: -0.4px;
 }
 
 .section__content {
@@ -178,9 +179,9 @@
 }
 
 .advice p {
-    font-size: var(--font-size);
+    font-size: 18px;
     color: var(--text-color);
-    line-height: var(--line-height);
+    letter-spacing: -0.41px;
 }
 
 /* Ссылки */
@@ -377,11 +378,12 @@
 @media (width >=1024px) {
     .header__text {
         max-inline-size: var(--header-text-max-width-desktop);
+        letter-spacing: -0.4px;
     }
 
     /* Первая секция - более узкая первая колонка на десктопе */
     .section:first-of-type {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 0.97fr 2fr;
     }
 
     /* Вторая секция - 3 колонки для ДЕСКТОПА */
@@ -397,6 +399,6 @@
 
     /* Третья секция - пропорции для десктопа */
     .section:nth-of-type(3) {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 0.97fr 2fr;
     }
 }
