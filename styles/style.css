@@ -241,7 +241,7 @@
 }
 
 /* МЕДИА-ЗАПРОСЫ ДЛЯ ПЛАНШЕТОВ (768px+) */
-@media (width >= 768px) {
+@media (width >= 1024px) {
     /* Навигация горизонтально */
     .header__theme-menu {
         justify-content: center;
