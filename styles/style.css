@@ -163,7 +163,7 @@
     font-size: var(--font-size);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height);
-    letter-spacing: -0.5px;
+    /*letter-spacing: -0.5px;-----------------------------------------------*/
 }
 
 .section__content {
