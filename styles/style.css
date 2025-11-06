@@ -127,6 +127,7 @@
     font-weight: var(--font-weight-bold);
     line-height: var(--header-title-line-height);
     align-self: center;
+    max-inline-size: 100%;
 }
 
 /* Декорированный текст */
