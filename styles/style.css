@@ -246,12 +246,42 @@
     line-height: var(--header-title-line-height);
 }
 
+/* МЕДИА-ЗАПРОСЫ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ (до 768px) */
+@media (width < 768px) {
+    .header {
+        grid-template-rows: auto min-content auto;
+        gap: 10px;
+    }
+    
+    .header__theme-menu {
+        align-self: start;
+        margin-block-start: 0;
+    }
+    
+    .header__title {
+        font-size: var(--header-title-size-mobile);
+        line-height: 0.85;
+        margin-inline-start: 0;
+        max-inline-size: 100%;
+        word-break: break-word;
+        text-align: center;
+    }
+    
+    .header__text {
+        max-inline-size: 100%;
+        text-align: left;
+    }
+}
+
+
 /* МЕДИА-ЗАПРОСЫ ДЛЯ ПЛАНШЕТОВ (768px+) */
 @media (width >=768px) {
 
     /* Заголовок header с отступом */
     .header__title {
         margin-inline-start: -20px;
+        font-size: var(--header-title-size-tab-desktop);
+        line-height: var(--header-title-line-height);
     }
 
     /* Первая секция - сетка 2 колонки */
