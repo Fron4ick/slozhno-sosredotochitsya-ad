@@ -141,6 +141,7 @@
     max-inline-size: var(--header-text-max-width);
     justify-self: center;
     align-self: center;
+    text-align: start;
 }
 
 /* Основной контент */
