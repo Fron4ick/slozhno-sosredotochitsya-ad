@@ -341,3 +341,14 @@
         grid-template-columns: 0.97fr 2fr;
     }
 }
+
+@media (width < 768px) {
+    .header__text {
+        justify-self: center;
+        text-align: center;
+        padding: 0 var(--page-padding);
+        max-inline-size: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
