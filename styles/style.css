@@ -139,7 +139,7 @@
 
 .header__text {
     max-inline-size: var(--header-text-max-width);
-    justify-self: center;
+    justify-self: end;
     align-self: center;
     text-align: start;
     letter-spacing: 0.1px;
