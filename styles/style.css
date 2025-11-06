@@ -142,6 +142,7 @@
     justify-self: center;
     align-self: center;
     text-align: start;
+    letter-spacing: 0.1px;
 }
 
 /* Основной контент */
